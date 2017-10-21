@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:text="Account:"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:text="Input your account"
+            android:id="@+id/account" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:text="Password:"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:inputType="textPassword"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/remember_pass" />
+
+        <TextView
+            android:text="Remember password"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:text="Login"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:id="@+id/login"
+            android:textAllCaps="false" />
+    </TableRow>
+</TableLayout>
